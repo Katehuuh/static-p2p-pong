@@ -1,6 +1,6 @@
 # static-p2p-pong
 
-A small [live demo](https://katehuuh.github.io/static-p2p-pong/) - Serverless P2P Rollback Netcode running on static GitHub Pages via WebRTC (PeerJS). Inspired by [mitxela's WebRTC, UDP Hole Punching via a STUN server Pong](https://mitxela.com/projects/webrtc-pong).
+A small [live demo](https://katehuuh.github.io/static-p2p-pong/) - Serverless P2P Rollback Netcode running on static GitHub Pages via WebRTC (No Cloudflare, Firebase, Supabase, or db PHP, just PeerJS). Inspired by [mitxela's WebRTC, UDP Hole Punching via a STUN server Pong](https://mitxela.com/projects/webrtc-pong).
 
 ## ⚡ Mechanics & Architecture
 - **Solves Static-hosting Matchmaking limitation by using Distributed Recursive Lobbies:** Recursive logic -> Host `Room_N` -> (Busy?) -> Join `Room_N` -> (Timeout?) -> Retry `Room_N+1`.
